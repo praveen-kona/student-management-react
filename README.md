@@ -61,7 +61,7 @@ Repository Layer
       ↓
 MySQL Database
 ```
-🔗 REST APIs
+## 🔗 REST APIs
 1. Get All Students
 GET /student/getAllStudents
 
@@ -116,7 +116,8 @@ DELETE /student/delete/{sid}
 Example:
 
 http://localhost:9090/student/delete/1
-🔄 CRUD Operations
+
+## 🔄 CRUD Operations
 Operation	HTTP Method	Endpoint
 Create Student	POST	/student/saveStudent
 Read All Students	GET	/student/getAllStudents
@@ -124,8 +125,9 @@ Read Student By ID	GET	/student/getStudent/{sid}
 Read Student By Name	GET	/student/getStudent/fname/{fname}
 Update Student	PUT	/student/update/{sid}
 Delete Student	DELETE	/student/delete/{sid}
-📂 Frontend Project Structure
-student-frontend/
+
+## 📂 Frontend Project Structure
+```student-frontend/
 │
 ├── public/
 │
@@ -140,7 +142,8 @@ student-frontend/
 ├── package-lock.json
 ├── vite.config.js
 └── index.html
-⚙️ Backend Configuration
+```
+ ## ⚙️ Backend Configuration
 
 The Spring Boot backend runs on:
 
@@ -153,7 +156,8 @@ http://localhost:5173
 The backend uses MySQL database:
 
 Database: praveen
-🌐 CORS Configuration
+
+## 🌐 CORS Configuration
 
 The Spring Boot backend allows requests from the React frontend:
 
@@ -165,7 +169,7 @@ Example:
 
 This allows the React frontend to communicate with the Spring Boot backend.
 
-💻 How to Run the Project
+## 💻 How to Run the Project
 Step 1: Clone the Repository
 git clone YOUR_GITHUB_REPOSITORY_URL
 Step 2: Open the Project
@@ -230,7 +234,7 @@ Example:
     "age": 22,
     "total_marks": 86.5
 }
-🎯 Project Purpose
+## 🎯 Project Purpose
 
 The main purpose of this project is to understand how a React frontend communicates with a Spring Boot backend using REST APIs and Axios.
 
@@ -287,7 +291,7 @@ Student Management System
 ├── Update Student
 ├── Delete Student
 └── Students List
-🚀 Future Improvements
+## 🚀 Future Improvements
 
 Possible future improvements include:
 
@@ -301,11 +305,11 @@ Pagination
 React Router
 Authentication
 Responsive design
-👨‍💻 Author
+## 👨‍💻 Author
 
 Praveen Kona
 
-⭐ Project Status
+## ⭐ Project Status
 Basic Full-Stack CRUD Project - Completed
 
 The React frontend is integrated with the Spring Boot REST API and supports the main student CRUD operations.
