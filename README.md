@@ -1,16 +1,62 @@
-# React + Vite
+# Student Management System - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Student Management System** frontend application built using **React, Vite, and Axios**.
 
-Currently, two official plugins are available:
+This project connects a React frontend with a Spring Boot REST API to perform CRUD operations on student data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- React
+- Vite
+- JavaScript
+- Axios
+- HTML
+- CSS
 
-## Expanding the ESLint configuration
+### Backend
+- Java
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+- REST API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Database
+- MySQL
+
+---
+
+## 📌 Features
+
+- View all students
+- Add a new student
+- Find student by ID
+- Find student by first name
+- Update student details
+- Delete student by ID
+- Refresh student list
+- React form handling
+- Axios API integration
+- CORS configuration
+
+---
+
+## 🏗️ Project Architecture
+
+```text
+React Frontend
+      |
+      | Axios
+      ↓
+Spring Boot REST API
+      |
+      ↓
+Service Layer
+      |
+      ↓
+Repository Layer
+      |
+      ↓
+MySQL Database
